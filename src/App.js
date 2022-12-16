@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from "react";
+import { Container } from "@mui/system";
+import { ThemeProvider } from "@mui/system";
+import theme from "./styles/theme";
+import Appbar from "./components/Appbar/Appbar";
+import Login from "./components/login/login";
+import Campaig from "./components/campaign/campaign";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    useEffect(() => {
+        document.title = "Adsmart.com";
+    }, []);
+
+    return (
+        <ThemeProvider theme={theme}>
+            <Container>
+                <Appbar />
+                {/* <Login/> */}
+                <Campaig/>
+            </Container>
+        </ThemeProvider>
+    );
 }
 
 export default App;
