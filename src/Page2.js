@@ -7,7 +7,7 @@ import Login from "./components/login/login";
 import Campaig from "./components/campaign/campaign";
 import Campaignii from "./components/campaign2/CampaignII";
 
-function App() {
+function Page2() {
     useEffect(() => {
         document.title = "Adsmart.com";
     }, []);
@@ -24,4 +24,4 @@ function App() {
     );
 }
 
-export default App;
+export default Page2;
