@@ -4,7 +4,8 @@ import { ThemeProvider } from "@mui/system";
 import theme from "./styles/theme";
 import Appbar from "./components/Appbar/Appbar";
 import Campaig from "./components/campaign/campaign";
-import {Routes, Route, createBrowserRouter as Router } from "react-router-dom"
+import { Routes, Route, createBrowserRouter as Router } from "react-router-dom";
+import Page2 from "./pages/Page2";
 function App() {
     useEffect(() => {
         document.title = "Adsmart.com";
@@ -12,17 +13,14 @@ function App() {
 
     return (
         <ThemeProvider theme={theme}>
-            <Router>
-                <Container>
-                    <Appbar />
-                    <Routes>
-                        <Route path="/">
-                            <Campaig />
-                        </Route> 
-                    </Routes>
-                </Container>
-             </Router>      
-               </ThemeProvider>
+            <Container>
+                <Appbar />
+                <Routes>
+                    <Route path="/" element={<Campaig />} />
+                    <Route path="/login" element={<Page2 />} />
+                </Routes>
+            </Container>
+        </ThemeProvider>
     );
 }
 

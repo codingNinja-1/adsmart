@@ -2,6 +2,10 @@
 import { Button } from "@mui/material";
 import React from "react";
 import { LoginForm, LoginHeader, LoginTextField } from "../../styles/Loginform";
+import { ThemeProvider } from "@mui/system";
+import theme from "../styles/theme";
+import Appbar from "../components/Appbar/Appbar";
+import Login from "../components/login/login";
 
 const Login = () => {
     return (
