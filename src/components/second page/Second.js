@@ -5,7 +5,7 @@ import "../../../src/index.css";
 export default function AppbarDesktop({ matches }) {
     return (
         <AppbarContainer>
-            <AppbarHeader sx={{ color: "#005CC3" }}>Adzmart.com</AppbarHeader>
+            <AppbarHeader sx={{ color: "#005CC3" }}>Adzmart.ng</AppbarHeader>
             <MyList type="row">
                 <ListItemText primary="Advertise" />
                 <ListItemText primary="How it works" />
@@ -13,7 +13,6 @@ export default function AppbarDesktop({ matches }) {
                     variant="contained"
                     sx={{ marginRight: 2 }}
                     color="primary"
-                    
                 >
                     login
                 </Button>

@@ -1,34 +1,31 @@
 import { Box } from "@mui/system";
 import { styled } from "@mui/material/styles";
-import { Paper } from "@mui/material";
+import { Paper, Typography } from "@mui/material";
 
 export const Campaign = styled(Box)(() => ({
+    justifyContent: "center",
     display: "flex",
+    textAlign: "center",
     m: 1,
-    width: 428,
-    height: 328,
-   }));
+    alignItems: "center",
+    // justifyContent: "center",
+}));
 
-export const Papers= styled(Paper)(()=>({
- background: "#005CC3",
-}))
-// return (
+export const Papers = styled(Paper)(() => ({
+    width: 538,
+    height: 330
+    ,
+    display:'flex',
+    flexDirection:"column",
+    border: "1px solid #005CC3",
+    alignContent: "center",
+    // : "center",
+    justifyContent: "center",
+    backgroundColor:"rgba(0,90,200,0.3)"
+}));
 
-//         {/* <Paper variant="outlined" /> */}
-//         <Typography></Typography>
-//         <Paper variant="outlined" square />
-//     </Box>
-// );
+export const Middle = styled(Typography)(() => ({
+    fontSize: "2em",
+    color:"Colors.secondary"
+}));
 
-//   <Box
-//         sx={{
-//             display: "flex",
-//             "& > :not(style)": {
-//                 m: 1,
-//                 width: 428,
-//                 height: 328,
-//                 background: "#005CC3",
-//             },
-
-//         }}
-//     ></Box>
