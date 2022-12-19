@@ -1,8 +1,8 @@
 import { useMediaQuery } from '@mui/material'
 import { useTheme } from '@mui/material/styles'
 import React from 'react'
-import AppbarDesktop from './AppbarDesktop'
-import AppbarMobile from './AppbarMobile'
+import AppbarDesktop from './NavbarDesktop'
+import AppbarMobile from './NavbarMobile'
 
 function Appbar() {
  const theme=useTheme()
