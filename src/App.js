@@ -4,7 +4,7 @@ import { ThemeProvider } from "@mui/system";
 import theme from "./styles/theme";
 import Appbar from "./components/Navigation/Navbar";
 import Campaig from "./components/campaign/campaign";
-import { Routes, Route, createBrowserRouter as Router } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Page2 from "./pages/Page2";
 function App() {
     useEffect(() => {
@@ -17,7 +17,7 @@ function App() {
                 <Appbar />
                 <Routes>
                     <Route path="/" element={<Campaig />} />
-                    <Route path="/login" element={<Page2 />} />
+                    <Route path="/" element={<Page2 />} />
                 </Routes>
             </Container>
         </ThemeProvider>

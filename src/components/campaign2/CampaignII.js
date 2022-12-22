@@ -1,4 +1,8 @@
-import { Campaign, Papers } from "../../styles/campaign";
+import { Campaign, Papers, Middle, } from "../../styles/campaign";
+import Firsttexts from "../Firsttext/Firsttext";
+import { Link } from "@mui/material";
+
+
 
 export default function Campaignii(){
  return(
@@ -16,7 +20,7 @@ export default function Campaignii(){
                 <Middle
                     sx={{
                         fontWeight: "700",
-                        margin: 3,
+                         margin: 3,
                         color: "#005CC3",
                     }}
                 >
