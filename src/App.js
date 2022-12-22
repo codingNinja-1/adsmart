@@ -17,7 +17,7 @@ function App() {
                 <Appbar />
                 <Routes>
                     <Route path="/" element={<Campaig />} />
-                    <Route path="/" element={<Page2 />} />
+                    <Route path="/page2" element={<Page2 />} />
                 </Routes>
             </Container>
         </ThemeProvider>

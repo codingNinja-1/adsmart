@@ -29,3 +29,12 @@ export const Middle = styled(Typography)(() => ({
     color:"Colors.secondary"
 }));
 
+export const Btn = styled(Box)(() => ({
+    justifyContent: "space-between",
+    display: "flex",
+    marginTop:'05vh',
+    textAlign: "center",
+    m: 1,
+    alignItems: "center",
+    // justifyContent: "center",
+}));

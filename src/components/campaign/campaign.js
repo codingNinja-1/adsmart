@@ -9,12 +9,18 @@ export default function Campaig() {
 
             <Campaign>
                 <Papers sx={{ marginRight: "10px" }}>
-                    <Link  to ="./second">
-                    <Middle sx={{ color: "#005CC3",  }}>
-                        I am an Advistiser
-                    </Middle>
+                    <Link href='/page2'
+                        // to="/page2"
+                        variant="body1"
+                        underline="none"
+                        //   target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <Middle sx={{ color: "#005CC3" }}>
+                            I am an Advistiser
+                        </Middle>
                     </Link>
-                </Papers>   
+                </Papers>
                 <Middle
                     sx={{
                         fontWeight: "700",
