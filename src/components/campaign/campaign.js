@@ -1,3 +1,4 @@
+
 import { Link } from "@mui/material";
 import { Campaign, Middle, Papers } from "../../styles/campaign";
 import Firsttexts from "../Firsttext/Firsttext";
@@ -10,7 +11,6 @@ export default function Campaig() {
             <Campaign>
                 <Papers sx={{ marginRight: "10px" }}>
                     <Link href='/page2'
-                        // to="/page2"
                         variant="body1"
                         underline="none"
                         //   target="_blank"

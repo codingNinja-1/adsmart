@@ -50,7 +50,7 @@ export default function Campaignii() {
                     </Button>
                 <Button
                     sx={{ width: "130px" }}
-                    href="/"
+                    href="/page3"
                     variant="contained"
                 >
                     Next
