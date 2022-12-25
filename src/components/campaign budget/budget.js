@@ -8,7 +8,7 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 // import FormLabel from '@mui/material/FormLabel';
 import { Button } from "@mui/material";
-
+import { Btn } from "../../styles/campaign";
 
 
 export default function Budget(){
@@ -60,6 +60,20 @@ export default function Budget(){
                  </Button>
              </RadioGroup>
          </FormControl>
+<Btn>
+                    <Button sx={{ width: "130px" }} variant="contained"
+                    href="/"
+                    >
+                        Previous
+                    </Button>
+                <Button
+                    sx={{ width: "130px" }}
+                    href="/page3"
+                    variant="contained"
+                >
+                    Submit
+                </Button>
+            </Btn>
      </>
  );
 }
