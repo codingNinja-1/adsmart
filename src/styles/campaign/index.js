@@ -6,15 +6,14 @@ export const Campaign = styled(Box)(() => ({
     justifyContent: "center",
     display: "flex",
     textAlign: "center",
-    m: 1,
+    padding: "0 5px",
     alignItems: "center",
     // justifyContent: "center",
 }));
 
 export const Papers = styled(Paper)(() => ({
     width: 538,
-    height: 330
-    ,
+    height: 330,
     display: 'flex',
     flexDirection: "column",
     border: "1px solid #005CC3",
