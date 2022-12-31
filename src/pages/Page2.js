@@ -1,7 +1,5 @@
 import { useEffect } from "react";
-// import { Container } from "@mui/system";
-// import Campaig from "../components/campaign/campaign";
-import Campaignii from "../components/campaign2/CampaignII";
+import {Campaign2} from "../components/campaign";
 
 function Page2() {
     useEffect(() => {
@@ -12,10 +10,10 @@ function Page2() {
         <>
             {/* <Login/> */}
             {/* <Campaig /> */}
-            < Campaignii />
+            < Campaign2 />
         </>
 
     );
-} 
- 
+}
+
 export default Page2;

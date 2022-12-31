@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import Budget from "../components/campaign budget/budget";
+import {Budget} from "../components/campaign";
 // import Campaignii from "../components/campaign2/CampaignII";
 
 function Page3() {

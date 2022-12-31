@@ -1,25 +1,18 @@
 
 import { Link } from "@mui/material";
 import { Campaign, Middle, Papers } from "../../styles/campaign";
-import Firsttexts from "../Firsttext/Firsttext";
+import { FirstText } from "./";
 
-export default function Campaig() {
+export default function Campaig({ NextSlide, PrevSlide }) {
     return (
         <>
-            <Firsttexts></Firsttexts>
+            <FirstText></FirstText>
 
             <Campaign>
-                <Papers sx={{ marginRight: "10px" }}>
-                    <Link href='/page2'
-                        variant="body1"
-                        underline="none"
-                        //   target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <Middle sx={{ color: "#005CC3" }}>
-                            I am an Advistiser
-                        </Middle>
-                    </Link>
+                <Papers sx={{ marginRight: "10px" }} onClick={NextSlide}>
+                    <Middle sx={{ color: "#005CC3" }}>
+                        I am an Advistiser
+                    </Middle>
                 </Papers>
                 <Middle
                     sx={{
