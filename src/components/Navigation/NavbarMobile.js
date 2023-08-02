@@ -1,4 +1,4 @@
-import { AppbarContainer, AppbarHeader, MyList } from "../../styles/Appbar";
+import { AppbarContainer, AppbarHeader,  } from "../../styles/Appbar";
 
 export default function AppbarMobile({matches}) {
  return  <AppbarContainer>
